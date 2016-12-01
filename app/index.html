@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-  </body>
-</html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Bootstrap 101 Template</title>
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<body>
+  <span class="label label-sucess">Hello, world!</h1>
+  <!-- Insert this line above script imports  -->
+  <script>
+    if (typeof module === 'object') {
+      window.module = module; 
+      module = undefined;
+    }
+  </script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+  <script>
+    if (window.module)
+      module = window.module;
+  </script>
+</body>
+
+</html>
